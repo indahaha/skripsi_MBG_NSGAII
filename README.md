@@ -1,7 +1,6 @@
 # 🥗 Rekomendasi Menu Makan Bergizi Gratis (NSGA-II)
 
-Aplikasi optimasi multi-objektif berbasis **NSGA-II** untuk rekomendasi menu  
-4 sehat 5 sempurna pada program Makan Bergizi Gratis anak Indonesia.
+Aplikasi optimasi multi-objektif berbasis **NSGA-II** untuk rekomendasi menu Makan Bergizi Gratis anak Indonesia.
 
 ---
 
@@ -28,10 +27,9 @@ skripsi-makan-bergizi/
 
 | Parameter              | Nilai  | Keterangan                              |
 |------------------------|--------|-----------------------------------------|
-| Ukuran populasi        | 100    | Fixed, tidak dapat diubah pengguna      |
-| Jumlah generasi        | 200    | Fixed, tidak dapat diubah pengguna      |
+| Ukuran populasi        | 200    | Fixed, tidak dapat diubah pengguna      |
+| Jumlah generasi        | 300    | Fixed, tidak dapat diubah pengguna      |
 | Proporsi makan siang   | 35%    | Sesuai Pedoman Gizi Seimbang Kemenkes   |
-| Susu                   | Wajib  | Selalu disertakan (4 sehat 5 sempurna)  |
 | Harga minimum per porsi| Rp 5.000 | Batas bawah slider biaya             |
 | Harga maksimum per porsi| Rp 20.000 | Batas atas slider biaya            |
 
