@@ -1,0 +1,144 @@
+kode_bahan,nama_bahan,energi,protein,lemak,karbohidrat,serat,harga_kg,harga_per_100g,kategori,kelompok
+AR001,Beras giling,357,8.4,1.7,77.1,0.2,13000,1300.0,serealia,karbohidrat
+AR002,Beras giling var pelita,369,9.5,1.4,77.1,0.4,15000,1500.0,serealia,karbohidrat
+AR003,Beras giling var rojolele mentah,357,8.4,1.7,77.1,0.2,18000,1800.0,serealia,karbohidrat
+AR005,"Beras jagung kuning, kering, mentah",358,5.5,0.1,82.7,10.0,15000,1500.0,serealia,karbohidrat
+AR006,Beras jagung putih kering,307,4.8,0.1,71.8,10.0,13000,1300.0,serealia,karbohidrat
+AR013,Beras tumbuk merah,352,7.3,0.9,76.2,0.8,28000,2800.0,serealia,karbohidrat
+AR015,Jagung muda kuning,147,5.1,0.7,31.5,1.3,25000,2500.0,serealia,karbohidrat
+AR016,Jagung kuning pipil kering,366,9.8,7.3,69.1,2.2,9000,900.0,serealia,karbohidrat
+AR017,Jagung pipil var harapan,367,6.2,5.1,76.2,2.6,17000,1700.0,serealia,karbohidrat
+AR018,Jagung pipil var metro,368,5.5,4.6,78.0,2.9,12000,1200.0,serealia,karbohidrat
+BP055,Rasbi (beras ubi),394,2.2,8.8,76.6,6.8,39000,3900.0,umbi_berpati,karbohidrat
+BP056,Rasi (beras singkong),350,0.9,0.4,85.7,14.4,10000,1000.0,umbi_berpati,karbohidrat
+BP073,Tiwul,353,2.4,1.1,83.4,6.5,9000,900.0,umbi_berpati,karbohidrat
+BP075,Ubi cilembu,186,1.9,0.2,44.3,3.4,10000,1000.0,umbi_berpati,karbohidrat
+BR003,Batatas kelapa,89,1.1,0.1,21.0,4.0,15000,1500.0,umbi_berpati,karbohidrat
+BR013,Kentang segar,62,2.1,0.2,13.5,0.5,18000,1800.0,umbi_berpati,karbohidrat
+BR014,Kentang hitam,142,0.9,0.4,33.7,5.4,13000,1300.0,umbi_berpati,karbohidrat
+BR015,Keribang ubi segar,137,1.3,1.1,29.8,0.6,15000,1500.0,umbi_berpati,karbohidrat
+BR016,Ketela pohon/singkong segar,154,1.0,0.3,36.8,0.9,10000,1000.0,umbi_berpati,karbohidrat
+BR017,Lepok/ubi rumput,181,2.8,1.2,39.8,10.7,11000,1100.0,umbi_berpati,karbohidrat
+BR018,Sagu aren kering,355,0.6,1.1,85.6,0.3,15000,1500.0,umbi_berpati,karbohidrat
+BR019,Sagu aren segar,231,0.6,0.2,56.6,3.2,15000,1500.0,umbi_berpati,karbohidrat
+BR022,Sagu singkong kering,362,0.5,0.3,86.9,0.0,27000,2700.0,umbi_berpati,karbohidrat
+BR025,Talas bogor segar,108,1.4,0.4,25.0,0.9,15000,1500.0,umbi_berpati,karbohidrat
+BR026,Talas pontianak segar,163,2.3,0.5,36.4,0.7,15000,1500.0,umbi_berpati,karbohidrat
+BR027,Talas viqueque segar,115,1.8,0.5,25.9,8.6,11000,1100.0,umbi_berpati,karbohidrat
+BR028,Ubi jalar kuning segar,119,0.5,0.4,25.1,4.2,9000,900.0,umbi_berpati,karbohidrat
+BR029,Ubi jalar manis segar,83,1.5,0.2,18.8,0.6,10000,1000.0,umbi_berpati,karbohidrat
+BR030,Ubi jalar merah segar,151,1.6,0.3,35.4,0.7,10000,1000.0,umbi_berpati,karbohidrat
+BR031,Ubi jalar putih segar,88,0.4,0.4,20.6,4.0,10000,1000.0,umbi_berpati,karbohidrat
+BR032,Ubi jalar tinta/ kemayung,108,0.5,0.4,25.6,4.2,9000,900.0,umbi_berpati,karbohidrat
+BR033,Umbi Uwi segar,120,2.8,0.5,82.3,2.6,15000,1500.0,umbi_berpati,karbohidrat
+CP037,Kembang tahu,380,48.9,13.8,23.3,0.0,110000,11000.0,kacang_biji,lauk
+CP051,Oncom,187,13.0,6.0,22.6,0.0,10000,1000.0,kacang_biji,lauk
+CP060,Susu kedelai,41,3.5,2.5,5.0,0.2,20000,2000.0,kacang_biji,lauk
+CP061,Tahu mentah,80,10.9,4.7,0.8,0.1,20000,2000.0,kacang_biji,lauk
+CP063,Tahu telur,328,12.6,19.9,24.6,0.4,25000,2500.0,kacang_biji,lauk
+CP077,Tempe kedelai murni mentah,201,20.8,8.8,13.5,1.4,24000,2400.0,kacang_biji,lauk
+DR004,Andewi segar,226,1.6,0.2,5.3,4.1,15000,1500.0,sayuran,sayur
+DR006,Baligo segar,15,0.4,0.2,3.0,0.4,12000,1200.0,sayuran,sayur
+DR008,Bayam segar,16,0.9,0.4,2.9,0.7,15000,1500.0,sayuran,sayur
+DR009,Bayam merah segar,41,2.2,0.8,6.3,2.2,12000,1200.0,sayuran,sayur
+DR013,Buncis segar,34,2.4,0.3,7.2,1.9,13000,1300.0,sayuran,sayur
+DR016,Caisin segar,20,1.7,0.4,3.4,1.2,15000,1500.0,sayuran,sayur
+DR042,Daun kol sawi segar,22,2.1,0.5,3.6,0.9,11000,1100.0,sayuran,sayur
+DR059,Daun pakis segar,39,4.5,0.4,6.9,2.0,25000,2500.0,sayuran,sayur
+DR065,Daun pepaya segar,87,8.0,2.0,11.9,1.5,10000,1000.0,sayuran,sayur
+DR071,Daun singkong segar,50,6.2,1.1,7.1,2.4,4000,400.0,sayuran,sayur
+DR083,Gambas (oyong) segar,19,0.8,0.2,4.1,1.3,9000,900.0,sayuran,sayur
+DR084,Genjer segar,35,1.7,0.2,7.7,2.5,10000,1000.0,sayuran,sayur
+DR085,Jagung muda/semi segar,35,2.2,0.1,7.4,1.9,12000,1200.0,sayuran,sayur
+DR086,Jamur encik,296,9.4,1.1,62.0,0.0,30000,3000.0,sayuran,sayur
+DR087,Jamur kuping kering,294,16.0,0.9,64.6,46.5,97000,9700.0,sayuran,sayur
+DR088,Jamur kuping segar,21,3.8,0.6,0.9,5.1,20000,2000.0,sayuran,sayur
+DR089,Jamur merang segar,30,3.5,0.2,4.0,2.4,45000,4500.0,sayuran,sayur
+DR090,Jamur tiram segar,30,1.9,0.1,5.5,3.6,10000,1000.0,sayuran,sayur
+DR097,Kacang panjang segar,31,2.3,0.1,5.3,2.7,13000,1300.0,sayuran,sayur
+DR100,Kangkung segar,28,3.4,0.7,3.9,2.0,15000,1500.0,sayuran,sayur
+DR113,Kool kembang,25,2.4,0.2,4.9,1.6,33000,3300.0,sayuran,sayur
+DR114,Kool merah,29,1.4,0.2,5.3,1.9,20000,2000.0,sayuran,sayur
+DR115,Kool putih,29,1.4,0.2,5.3,1.9,18000,1800.0,sayuran,sayur
+DR121,Labu air segar,19,0.6,0.2,3.8,0.6,20000,2000.0,sayuran,sayur
+DR122,Labu kuning segar,51,1.7,0.5,10.0,2.7,15000,1500.0,sayuran,sayur
+DR123,Labu siam segar,30,0.6,0.1,6.7,6.2,10000,1000.0,sayuran,sayur
+DR124,Labu waluh segar,32,1.1,0.1,6.6,0.5,16000,1600.0,sayuran,sayur
+DR140,Rumput laut,41,1.4,0.3,8.1,2.2,29000,2900.0,sayuran,sayur
+DR141,Sawi segar,28,2.3,0.3,4.0,2.5,14000,1400.0,sayuran,sayur
+DR142,Sawi putih/ pecai segar,9,1.0,0.1,1.7,0.8,13000,1300.0,sayuran,sayur
+DR145,Selada segar,18,1.2,0.2,2.9,1.8,48000,4800.0,sayuran,sayur
+DR146,Selada air segar,17,3.1,0.2,2.2,0.7,15000,1500.0,sayuran,sayur
+DR148,Taoge segar,34,3.7,1.2,4.3,1.1,8000,800.0,sayuran,sayur
+DR154,Terong segar,28,1.1,0.2,5.5,2.1,7000,700.0,sayuran,sayur
+DR159,Terung panjang,25,2.1,0.1,5.3,0.5,20000,2000.0,sayuran,sayur
+DR161,Tomat merah segar,24,1.3,0.5,4.7,1.5,8000,800.0,sayuran,sayur
+DR162,Tomat muda segar,24,2.0,0.7,3.3,1.8,9000,900.0,sayuran,sayur
+DR166,Wortel segar,36,1.0,0.6,7.9,1.0,10000,1000.0,sayuran,sayur
+ER001,Alpukat segar,85,0.9,6.5,7.7,0.0,17000,1700.0,buah,buah
+ER002,Anggur hutan segar,30,0.5,0.2,6.8,1.2,28000,2800.0,buah,buah
+ER003,"Apel malang, segar",57,0.5,0.4,12.8,0.8,20000,2000.0,buah,buah
+ER004,Apel segar,58,0.3,0.4,14.9,2.6,25000,2500.0,buah,buah
+ER012,Buah naga merah segar,71,1.7,3.1,9.1,3.2,16000,1600.0,buah,buah
+ER013,Buah naga putih segar,56,0.8,1.0,10.9,3.2,30000,3000.0,buah,buah
+ER022,Duku segar,63,1.0,0.2,16.1,4.3,25000,2500.0,buah,buah
+ER030,Jambu air segar,46,0.6,0.2,11.8,2.1,16000,1600.0,buah,buah
+ER031,Jambu biji,64,0.9,0.3,12.2,2.4,12000,1200.0,buah,buah
+ER032,Jambu biji tak berbiji,61,0.9,0.3,15.4,4.5,12000,1200.0,buah,buah
+ER035,Jeruk bali segar,48,0.6,0.2,12.4,0.8,25000,2500.0,buah,buah
+ER037,Jeruk garut-keprok,44,0.8,0.3,10.9,1.6,25000,2500.0,buah,buah
+ER038,Jeruk Kalamansi segar,39,0.3,0.3,8.9,2.3,14000,1400.0,buah,buah
+ER039,Jeruk manis segar,45,0.9,0.2,11.2,1.4,17000,1700.0,buah,buah
+ER054,Mangga segar,52,0.7,0.0,12.3,1.6,19000,1900.0,buah,buah
+ER055,Mangga benggala segar,63,2.4,0.4,12.4,5.8,16000,1600.0,buah,buah
+ER056,Mangga gedung segar,44,0.7,0.2,11.2,1.6,45000,4500.0,buah,buah
+ER057,Mangga golek segar,63,0.5,0.2,16.7,2.3,30000,3000.0,buah,buah
+ER058,Mangga harumanis segar,46,0.4,0.2,11.9,1.7,25000,2500.0,buah,buah
+ER059,Mangga indramayu segar,72,0.8,0.2,18.7,2.5,29000,2900.0,buah,buah
+ER060,Mangga kopek segar,56,0.4,0.2,14.6,2.0,20000,2000.0,buah,buah
+ER061,Mangga kwini segar,86,0.7,0.5,19.8,6.5,20000,2000.0,buah,buah
+ER062,Mangga manalagi segar,133,1.0,0.1,32.1,11.8,28000,2800.0,buah,buah
+ER064,Manggis segar,63,0.6,0.6,15.6,1.5,35000,3500.0,buah,buah
+ER065,Markisa segar,144,3.5,1.2,29.8,11.4,20000,2000.0,buah,buah
+ER067,Melon segar,37,0.6,0.4,7.8,1.0,17000,1700.0,buah,buah
+ER069,Nanas palembang segar,58,0.7,0.2,13.3,1.6,20000,2000.0,buah,buah
+ER070,Nanas segar,40,0.6,0.3,9.9,0.6,22000,2200.0,buah,buah
+ER073,Pepaya segar,46,0.5,0.1,12.2,1.6,16000,1600.0,buah,buah
+ER074,Pisang ambon segar,108,1.0,0.8,24.3,1.9,14000,1400.0,buah,buah
+ER087,Pisang mas segar,127,1.4,0.2,33.6,1.4,12000,1200.0,buah,buah
+ER089,Pisang raja segar,120,1.2,0.2,31.8,5.3,15000,1500.0,buah,buah
+ER097,Rambutan segar,69,0.9,0.1,18.1,0.8,15000,1500.0,buah,buah
+ER100,Salak pondoh segar,87,0.8,0.4,20.1,0.0,17000,1700.0,buah,buah
+ER101,Salak segar,77,0.4,0.0,20.9,0.0,15000,1500.0,buah,buah
+ER105,Semangka segar,28,0.5,0.2,6.9,0.4,12000,1200.0,buah,buah
+ER106,Sirsak segar,65,1.0,0.3,16.3,3.2,15000,1500.0,buah,buah
+FR001,Anak sapi daging gemuk segar,184,18.8,14.0,0.0,0.0,160000,16000.0,daging,lauk
+FR002,Anak sapi daging kurus segar,174,19.6,10.0,0.0,0.0,110000,11000.0,daging,lauk
+FR003,Anak sapi daging sedang segar,190,19.1,12.0,0.0,0.0,135000,13500.0,daging,lauk
+FR005,Ayam daging segar,298,18.2,25.0,0.0,0.0,38000,3800.0,daging,lauk
+FR007,Hati ayam segar,261,27.4,16.1,1.6,0.0,29000,2900.0,daging,lauk
+FR024,Sapi daging gemuk segar,273,17.5,22.0,0.0,0.0,140000,14000.0,daging,lauk
+FR025,Sapi daging kurus segar,174,19.6,10.0,0.0,0.0,115000,11500.0,daging,lauk
+FR026,Sapi daging lemak sedang segar,201,18.8,14.0,0.0,0.0,135000,13500.0,daging,lauk
+FR031,Liver sapi segar,132,19.7,3.2,6.0,0.0,650000,65000.0,daging,lauk
+GR003,Cumi-cumi segar,75,16.1,0.7,0.1,0.0,70000,7000.0,ikan,lauk
+GR007,Ikan bandeng segar,123,20.0,4.8,0.0,0.0,45000,4500.0,ikan,lauk
+GR012,Ikan bawal segar,91,19.0,1.7,0.0,0.0,35000,3500.0,ikan,lauk
+GR019,Ikan cakalang segar,107,19.6,0.7,5.5,0.0,35000,3500.0,ikan,lauk
+GR025,Ikan gabus segar,80,16.2,0.5,2.6,0.0,60000,6000.0,ikan,lauk
+GR030,Ikan kakap segar,92,20.0,0.7,0.0,0.0,75000,7500.0,ikan,lauk
+GR033,Ikan kamera (kakap merah) segar,86,19.7,0.8,0.0,0.0,55000,5500.0,ikan,lauk
+GR039,Ikan layang segar,109,22.0,1.7,0.0,0.0,35000,3500.0,ikan,lauk
+GR046,Ikan mas segar,86,16.0,2.0,0.0,0.0,48000,4800.0,ikan,lauk
+GR048,Ikan mujahir segar,89,18.7,1.0,0.0,0.0,35000,3500.0,ikan,lauk
+GR053,Ikan patin segar,132,17.0,6.6,1.1,0.0,35000,3500.0,ikan,lauk
+GR057,Ikan sarden segar,109,19.9,1.8,3.4,0.0,25000,2500.0,ikan,lauk
+GR058,Ikan selar segar,100,18.8,2.2,0.0,0.0,42000,4200.0,ikan,lauk
+GR068,Ikan teri segar,74,10.3,1.4,4.1,0.0,39000,3900.0,ikan,lauk
+GR070,Ikan tongkol segar,100,13.7,1.5,8.0,0.0,25000,2500.0,ikan,lauk
+GR080,Rebon udang kecil segar,81,16.2,1.2,0.7,0.0,16000,1600.0,ikan,lauk
+GR083,"Udang, besar segar",56,11.4,0.6,1.2,0.0,90000,9000.0,ikan,lauk
+GR084,Udang segar,91,21.0,0.2,0.1,0.0,65000,6500.0,ikan,lauk
+HR001,Telur ayam kampung segar,174,10.8,14.0,1.2,0.0,45000,4500.0,telur,lauk
+HR002,Telur ayam ras segar,154,12.4,10.8,0.7,0.0,28000,2800.0,telur,lauk
+HR011,Telur burung puyuh segar,116,10.7,7.0,1.6,0.0,35000,3500.0,telur,lauk
