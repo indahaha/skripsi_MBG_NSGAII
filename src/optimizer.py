@@ -262,6 +262,67 @@ class MenuOptimizationProblem(Problem):
 # ─────────────────────────────────────────────────────────────
 # Helper: satu sesi NSGA-II
 # ─────────────────────────────────────────────────────────────
+class FastProblem(MenuOptimizationProblem):
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+
+        self.arrays = {}
+        for kat in self.aktif:
+            df = self.kelompok_data[kat]
+            self.arrays[kat] = {
+                "nutrisi": df[NUTRISI_COLS].to_numpy(dtype=float),
+                "harga": df["harga_per_100g"].to_numpy(dtype=float),
+                "nama": df["nama_bahan"].to_numpy(),
+            }
+
+    def _evaluate(self, X, out, *args, **kwargs):
+        X = np.atleast_2d(np.asarray(X, dtype=float))
+        n = len(X)
+
+        total = np.zeros((n, len(NUTRISI_COLS)))
+        biaya = np.zeros(n)
+        penalti = np.zeros(n)
+
+        for i, kat in enumerate(self.aktif):
+            data = self.arrays[kat]
+
+            idx = np.rint(X[:, 2 * i])
+            idx = np.clip(
+                idx, 0, len(data["nama"]) - 1
+            ).astype(int)
+
+            porsi = X[:, 2 * i + 1]
+            faktor = porsi / 100.0
+
+            total += data["nutrisi"][idx] * faktor[:, None]
+            biaya += data["harga"][idx] * faktor
+
+            blacklist = self.blacklist.get(kat, set())
+            if blacklist:
+                penalti += np.isin(
+                    data["nama"][idx], list(blacklist)
+                ).astype(float)
+
+        target = np.array([
+            self.target_makan[k] for k in NUTRISI_COLS
+        ])
+
+        valid = target > 0
+
+        f1 = np.mean(
+            np.abs(total[:, valid] - target[valid])
+            / target[valid],
+            axis=1
+        )
+
+        f2 = np.abs(biaya - self.harga_target)
+
+        f1 += 2.0 * penalti
+        f2 += 8000.0 * penalti
+
+        out["F"] = np.column_stack([f1, f2])
+
+
 def _run_single(kelompok_data, akg_target, pop_size, n_gen,
                 seed, faktor_makan, harga_target, blacklist=None):
     """
@@ -274,7 +335,7 @@ def _run_single(kelompok_data, akg_target, pop_size, n_gen,
     target_makan: dict {nutrisi: nilai target makan siang}
     evaluasi_hv : dict — riwayat dan nilai Hypervolume
     """
-    problem = MenuOptimizationProblem(
+    problem = FastProblem(
         kelompok_data, akg_target,
         faktor_makan=faktor_makan,
         harga_target=harga_target,
